@@ -1,0 +1,14 @@
+<body>
+<form>
+                <label for="html">HTML:</label>
+	<input type="text" id="tex" name="html" value="This is supposed to be HTML, or plain text!" />
+	<input type="submit" value="Sign In" onclick="g()" />
+</form>
+</body>
+
+<script>
+function g() {
+	var user = document.getElementById("tex").value
+	document.body.innerHTML = user
+}
+</script>
