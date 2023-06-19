@@ -1,7 +1,11 @@
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: azure;
     color: darkblue;
+}
+
+p {
+    font-size: 11pt;
 }
 
 a {
