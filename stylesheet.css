@@ -1,7 +1,7 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: azure;
-    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
 }
 
 p {
@@ -9,5 +9,6 @@ p {
 }
 
 a {
-    color: rgb(69, 141, 209);
+    color: -webkit-link;
+    text-decoration: none;
 }
