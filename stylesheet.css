@@ -1,7 +1,7 @@
 * {
-    color: white;
-    background-color: rgb(48, 58, 145);
-    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a:link {
@@ -9,15 +9,15 @@ a:link {
 }
 
 a:hover {
-    color: #00BBFF;
+    color: #46bfeb;
 }
 
 a:visited {
-    color: #4DDBB8;
+    color: #3f1194;
 }
 
 a:visited:hover {
-    color: #4DECB8;
+    color: #804be1;
 }
 
 p {
