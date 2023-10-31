@@ -3,11 +3,11 @@
 <head>
     <link rel="stylesheet" href="https://bismuthnickel.github.io/stylesheet.css">
 	<link rel="icon" href="https://bismuthnickel.github.io/favicon.png">
-    <title>Jefel's Build-A-Site 2.0</title>
+    <title>Jefel's Build-A-Site 2.1</title>
 </head>
 <body>
     <span id="spam">
-        <h1>Jefel's Build-A-Site 2.0</h1>
+        <h1>Jefel's Build-A-Site 2.1</h1>
         <textarea rows="20" cols="50" placeholder="HTML goes here" id="bar"></textarea>
         <br>
         <button onclick="foo()">Create Site</button>
@@ -18,25 +18,26 @@
         <button onclick="back()">Back</button>
     </span>
 </body>
+<script src="https://bismuthnickel.github.io/jsx/JSX.js"></script>
 <script>
-    var spam = document.getElementById("spam");
-    var site = document.getElementById("site");
-    var eggs = document.getElementById("eggs");
-    var bar = document.getElementById("bar");
-    site.style.display = "none";
-    eggs.style.display = "none";
+    var spam = $("spam")
+    var site = $("site")
+    var eggs = $("eggs")
+    var bar = $("bar")
+    hide(site)
+    hide(eggs)
 
     function foo() {
-        site.innerHTML = bar.value;
-        spam.style.display = "none";
-        site.style.display = "initial";
-        eggs.style.display = "initial";
+        site.innerHTML = bar.value
+        hide(spam)
+        show(site)
+        show(eggs)
     }
 
     function back() {
-        spam.style.display = "initial";
-        site.style.display = "none";
-        eggs.style.display = "none";
+        show(spam)
+        hide(site)
+        hide(eggs)
     }
 </script>
 </html>
