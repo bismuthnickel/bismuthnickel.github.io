@@ -1,45 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-* {
-	font-family: "Courier New", Courier, monospace;
-}
-</style>
-<title>Jefel's Build-A-Site 2.0</title>
+    <link rel="stylesheet" href="https://bismuthnickel.github.io/stylesheet.css">
+    <title>Jefel's Build-A-Site 2.0</title>
 </head>
 <body>
-<span id="spam">
-<h1>Jefel's Build-A-Site 2.0</h1>
-<textarea rows="20" cols="50" placeholder="HTML goes here" id="bar"></textarea>
-<br>
-<button onclick="foo()">Create Site</button>
-</span>
-<span id="site"></span>
-<span id="eggs">
-<br><br>
-<button onclick="back()">Back</button>
-</span>
+    <span id="spam">
+        <h1>Jefel's Build-A-Site 2.0</h1>
+        <textarea rows="20" cols="50" placeholder="HTML goes here" id="bar"></textarea>
+        <br>
+        <button onclick="foo()">Create Site</button>
+    </span>
+    <span id="site"></span>
+    <span id="eggs">
+        <br><br>
+        <button onclick="back()">Back</button>
+    </span>
 </body>
 <script>
-var spam = document.getElementById("spam")
-var site = document.getElementById("site")
-var eggs = document.getElementById("eggs")
-var bar = document.getElementById("bar")
-site.style.display = "none"
-eggs.style.display = "none"
-function foo()
-{
-site.innerHTML = bar.value
-spam.style.display = "none"
-site.style.display = "initial"
-eggs.style.display = "initial"
-}
-function back()
-{
-spam.style.display = "initial"
-site.style.display = "none"
-eggs.style.display = "none"
-}
+    var spam = document.getElementById("spam");
+    var site = document.getElementById("site");
+    var eggs = document.getElementById("eggs");
+    var bar = document.getElementById("bar");
+    site.style.display = "none";
+    eggs.style.display = "none";
+
+    function foo() {
+        site.innerHTML = bar.value;
+        spam.style.display = "none";
+        site.style.display = "initial";
+        eggs.style.display = "initial";
+    }
+
+    function back() {
+        spam.style.display = "initial";
+        site.style.display = "none";
+        eggs.style.display = "none";
+    }
 </script>
 </html>
