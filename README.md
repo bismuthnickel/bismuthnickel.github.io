@@ -2,7 +2,7 @@
 
 hey guys this is my official site
 
-https://gdsnowfluff.github.com
+https://bismuthnickel.github.com
 
 uhh go check it out
 
