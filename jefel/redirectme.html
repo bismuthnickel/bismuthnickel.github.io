@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://bismuthnickel.github.io/jefel/stylesheet.css">
+        <title>RedirectMe</title>
+    </head>
+    <body>
+        <h1>Jefel's RedirectMe 1.0</h1>
+        <form>
+            <input type="text" id="bana">
+            <br><br>
+            <input type="button" onclick="redirect()" value="Redirect me!">
+        </form>
+    </body>
+    <script>
+        function redirect() {
+            window.location.href = document.getElementById("bana").value
+        }
+    </script>
+</html>
