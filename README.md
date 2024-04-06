@@ -2,7 +2,7 @@
 
 hey guys this is my official site
 
-https://bismuthnickel.github.com
+https://bismuthnickel.github.io
 
 uhh go check it out
 

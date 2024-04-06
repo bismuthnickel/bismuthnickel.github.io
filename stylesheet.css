@@ -1,5 +1,5 @@
-* {
-	font-family: Arial, Helvetica, sans-serif;
+:root {
+	font-family: "Arial", "Helvetica", sans-serif;
 }
 
 a:link {
@@ -20,14 +20,6 @@ a:visited:hover {
 
 p {
     font-size: 15pt;
-}
-
-.bismuthhtml {
-    background-color: #15153E;
-}
-
-.bismuthtext {
-    color: #6031e0;
 }
 
 #coluh {
